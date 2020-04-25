@@ -1,0 +1,333 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7z020clg400-1",
+      "name": "bd1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2019.1"
+    },
+    "design_tree": {
+      "clk_wiz_0": "",
+      "FastSerializer_0": ""
+    },
+    "ports": {
+      "din0": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din1": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din2": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din3": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din4": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din5": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din6": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din7": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din8": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din9": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din10": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din11": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din12": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din13": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din14": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      },
+      "din15": {
+        "direction": "I",
+        "left": "11",
+        "right": "0"
+      }
+    },
+    "components": {
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "bd1_clk_wiz_0_0",
+        "parameters": {
+          "CLKOUT1_JITTER": {
+            "value": "229.865"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "301.601"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "192.000"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "48.000"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "5.000"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "5"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          }
+        }
+      },
+      "FastSerializer_0": {
+        "vlnv": "xilinx.com:module_ref:FastSerializer:1.0",
+        "xci_name": "bd1_FastSerializer_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "FastSerializer",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "din0": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din1": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din2": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din3": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din4": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din5": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din6": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din7": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din8": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din9": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din10": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din11": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din12": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din13": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din14": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "din15": {
+            "direction": "I",
+            "left": "11",
+            "right": "0"
+          },
+          "finnish_n": {
+            "direction": "O"
+          },
+          "dout": {
+            "direction": "O",
+            "left": "11",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "FastSerializer_0/clk"
+        ]
+      },
+      "din0_1": {
+        "ports": [
+          "din0",
+          "FastSerializer_0/din0"
+        ]
+      },
+      "din1_1": {
+        "ports": [
+          "din1",
+          "FastSerializer_0/din1"
+        ]
+      },
+      "din2_1": {
+        "ports": [
+          "din2",
+          "FastSerializer_0/din2"
+        ]
+      },
+      "din3_1": {
+        "ports": [
+          "din3",
+          "FastSerializer_0/din3"
+        ]
+      },
+      "din4_1": {
+        "ports": [
+          "din4",
+          "FastSerializer_0/din4"
+        ]
+      },
+      "din5_1": {
+        "ports": [
+          "din5",
+          "FastSerializer_0/din5"
+        ]
+      },
+      "din6_1": {
+        "ports": [
+          "din6",
+          "FastSerializer_0/din6"
+        ]
+      },
+      "din7_1": {
+        "ports": [
+          "din7",
+          "FastSerializer_0/din7"
+        ]
+      },
+      "din8_1": {
+        "ports": [
+          "din8",
+          "FastSerializer_0/din8"
+        ]
+      },
+      "din9_1": {
+        "ports": [
+          "din9",
+          "FastSerializer_0/din9"
+        ]
+      },
+      "din10_1": {
+        "ports": [
+          "din10",
+          "FastSerializer_0/din10"
+        ]
+      },
+      "din11_1": {
+        "ports": [
+          "din11",
+          "FastSerializer_0/din11"
+        ]
+      },
+      "din12_1": {
+        "ports": [
+          "din12",
+          "FastSerializer_0/din12"
+        ]
+      },
+      "din13_1": {
+        "ports": [
+          "din13",
+          "FastSerializer_0/din13"
+        ]
+      },
+      "din14_1": {
+        "ports": [
+          "din14",
+          "FastSerializer_0/din14"
+        ]
+      },
+      "din15_1": {
+        "ports": [
+          "din15",
+          "FastSerializer_0/din15"
+        ]
+      }
+    }
+  }
+}

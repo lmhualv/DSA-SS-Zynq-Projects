@@ -1,0 +1,1 @@
+-wto "36c7e40d297b4da3a2f28dbff2fda4d8" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "TB_Serializer_behav" "xil_defaultlib.TB_Serializer" -log "elaborate.log" 

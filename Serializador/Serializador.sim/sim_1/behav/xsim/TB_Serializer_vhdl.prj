@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Serializador.srcs/sources_1/imports/VHDLSources/FastSerializer.vhd" \
+"../../../../Serializador.srcs/sim_1/imports/VHDLSources/TB_Serializer.vhd" \
+
+# Do not sort compile order
+nosort

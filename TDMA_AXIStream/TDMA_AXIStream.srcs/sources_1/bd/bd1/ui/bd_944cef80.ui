@@ -1,0 +1,58 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace portBus adc0 -pg 1 -lvl 2 -x 390 -y 30 -defaultsOSRD
+preplace portBus adc1 -pg 1 -lvl 2 -x 390 -y 130 -defaultsOSRD
+preplace portBus adc2 -pg 1 -lvl 2 -x 390 -y 230 -defaultsOSRD
+preplace portBus adc3 -pg 1 -lvl 2 -x 390 -y 330 -defaultsOSRD
+preplace portBus adc4 -pg 1 -lvl 2 -x 390 -y 430 -defaultsOSRD
+preplace portBus adc5 -pg 1 -lvl 2 -x 390 -y 530 -defaultsOSRD
+preplace portBus adc6 -pg 1 -lvl 2 -x 390 -y 630 -defaultsOSRD
+preplace portBus adc7 -pg 1 -lvl 2 -x 390 -y 730 -defaultsOSRD
+preplace portBus adc8 -pg 1 -lvl 2 -x 390 -y 830 -defaultsOSRD
+preplace portBus adc9 -pg 1 -lvl 2 -x 390 -y 930 -defaultsOSRD
+preplace portBus adc10 -pg 1 -lvl 2 -x 390 -y 1030 -defaultsOSRD
+preplace portBus adc11 -pg 1 -lvl 2 -x 390 -y 1130 -defaultsOSRD
+preplace portBus adc12 -pg 1 -lvl 2 -x 390 -y 1230 -defaultsOSRD
+preplace portBus adc13 -pg 1 -lvl 2 -x 390 -y 1330 -defaultsOSRD
+preplace portBus adc14 -pg 1 -lvl 2 -x 390 -y 1430 -defaultsOSRD
+preplace portBus adc15 -pg 1 -lvl 2 -x 390 -y 1530 -defaultsOSRD
+preplace inst xlconstant_13 -pg 1 -lvl 1 -x 280 -y 1330 -defaultsOSRD
+preplace inst xlconstant_9 -pg 1 -lvl 1 -x 280 -y 930 -defaultsOSRD
+preplace inst xlconstant_14 -pg 1 -lvl 1 -x 280 -y 1430 -defaultsOSRD
+preplace inst xlconstant_15 -pg 1 -lvl 1 -x 280 -y 1530 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 280 -y 30 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -x 280 -y 130 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 1 -x 280 -y 230 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 1 -x 280 -y 330 -defaultsOSRD
+preplace inst xlconstant_4 -pg 1 -lvl 1 -x 280 -y 430 -defaultsOSRD
+preplace inst xlconstant_5 -pg 1 -lvl 1 -x 280 -y 530 -defaultsOSRD
+preplace inst xlconstant_10 -pg 1 -lvl 1 -x 280 -y 1030 -defaultsOSRD
+preplace inst xlconstant_6 -pg 1 -lvl 1 -x 280 -y 630 -defaultsOSRD
+preplace inst xlconstant_11 -pg 1 -lvl 1 -x 280 -y 1130 -defaultsOSRD
+preplace inst xlconstant_7 -pg 1 -lvl 1 -x 280 -y 730 -defaultsOSRD
+preplace inst xlconstant_12 -pg 1 -lvl 1 -x 280 -y 1230 -defaultsOSRD
+preplace inst xlconstant_8 -pg 1 -lvl 1 -x 280 -y 830 -defaultsOSRD
+preplace netloc xlconstant_0_dout 1 1 1 N 30
+preplace netloc xlconstant_1_dout 1 1 1 N 130
+preplace netloc xlconstant_2_dout 1 1 1 NJ 230
+preplace netloc xlconstant_3_dout 1 1 1 NJ 330
+preplace netloc xlconstant_4_dout 1 1 1 NJ 430
+preplace netloc xlconstant_5_dout 1 1 1 NJ 530
+preplace netloc xlconstant_6_dout 1 1 1 NJ 630
+preplace netloc xlconstant_7_dout 1 1 1 NJ 730
+preplace netloc xlconstant_8_dout 1 1 1 NJ 830
+preplace netloc xlconstant_9_dout 1 1 1 NJ 930
+preplace netloc xlconstant_10_dout 1 1 1 NJ 1030
+preplace netloc xlconstant_11_dout 1 1 1 NJ 1130
+preplace netloc xlconstant_12_dout 1 1 1 NJ 1230
+preplace netloc xlconstant_13_dout 1 1 1 NJ 1330
+preplace netloc xlconstant_14_dout 1 1 1 NJ 1430
+preplace netloc xlconstant_15_dout 1 1 1 NJ 1530
+levelinfo -pg 1 -10 280 390
+pagesize -pg 1 -db -bbox -sgen -10 -30 530 1640
+"
+}
+

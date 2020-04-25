@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4252932576162984746  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 36c7e40d297b4da3a2f28dbff2fda4d8 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip -L xpm --snapshot TB_Serializer_behav xil_defaultlib.TB_Serializer" , 
+    buildDate : "May 24 2019" , 
+    buildTime : "14:51:52" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/TB_Serializer_behav/xsimk\"   \"xsim.dir/TB_Serializer_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/TB_Serializer_behav/obj/xsim_1.lnx64.o\" -L\"/tools/Xilinx1/Vivado/2019.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

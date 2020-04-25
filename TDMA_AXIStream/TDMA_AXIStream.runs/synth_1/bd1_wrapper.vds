@@ -1,0 +1,440 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Apr 24 04:30:23 2020
+# Process ID: 31844
+# Current directory: /home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1
+# Command line: vivado -log bd1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd1_wrapper.tcl
+# Log file: /home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/bd1_wrapper.vds
+# Journal file: /home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source bd1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx1/Vivado/2019.1/data/ip'.
+add_files: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1458.836 ; gain = 18.996 ; free physical = 1863 ; free virtual = 9289
+Command: synth_design -top bd1_wrapper -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 31914 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1838.012 ; gain = 153.684 ; free physical = 1472 ; free virtual = 8897
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'bd1_wrapper' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/hdl/bd1_wrapper.vhd:21]
+INFO: [Synth 8-3491] module 'bd1' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:218' bound to instance 'bd1_i' of component 'bd1' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/hdl/bd1_wrapper.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'bd1' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:229]
+INFO: [Synth 8-3491] module 'bd1_SerializerAXI_0_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/.Xil/Vivado-31844-lapma-HP-Laptop-15-bw0xx/realtime/bd1_SerializerAXI_0_0_stub.vhdl:5' bound to instance 'SerializerAXI_0' of component 'bd1_SerializerAXI_0_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:306]
+INFO: [Synth 8-638] synthesizing module 'bd1_SerializerAXI_0_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/.Xil/Vivado-31844-lapma-HP-Laptop-15-bw0xx/realtime/bd1_SerializerAXI_0_0_stub.vhdl:32]
+INFO: [Synth 8-3491] module 'bd1_clk_wiz_0_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/.Xil/Vivado-31844-lapma-HP-Laptop-15-bw0xx/realtime/bd1_clk_wiz_0_0_stub.vhdl:5' bound to instance 'clk_wiz_0' of component 'bd1_clk_wiz_0_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:330]
+INFO: [Synth 8-638] synthesizing module 'bd1_clk_wiz_0_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/.Xil/Vivado-31844-lapma-HP-Laptop-15-bw0xx/realtime/bd1_clk_wiz_0_0_stub.vhdl:15]
+INFO: [Synth 8-638] synthesizing module 'constants_imp_OJTR1O' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:35]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_0_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_0_0/synth/bd1_xlconstant_0_0.v:57' bound to instance 'xlconstant_0' of component 'bd1_xlconstant_0_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:149]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_0_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_0_0/synth/bd1_xlconstant_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 1 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant' (1#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_0_0' (2#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_0_0/synth/bd1_xlconstant_0_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_1_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_1_0/synth/bd1_xlconstant_1_0.v:57' bound to instance 'xlconstant_1' of component 'bd1_xlconstant_1_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:153]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_1_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_1_0/synth/bd1_xlconstant_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 2 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized0' (2#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_1_0' (3#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_1_0/synth/bd1_xlconstant_1_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_10_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_10_0/synth/bd1_xlconstant_10_0.v:57' bound to instance 'xlconstant_10' of component 'bd1_xlconstant_10_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:157]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_10_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_10_0/synth/bd1_xlconstant_10_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized1' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 11 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized1' (3#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_10_0' (4#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_10_0/synth/bd1_xlconstant_10_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_11_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_11_0/synth/bd1_xlconstant_11_0.v:57' bound to instance 'xlconstant_11' of component 'bd1_xlconstant_11_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:161]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_11_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_11_0/synth/bd1_xlconstant_11_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized2' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 12 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized2' (4#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_11_0' (5#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_11_0/synth/bd1_xlconstant_11_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_12_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_12_0/synth/bd1_xlconstant_12_0.v:57' bound to instance 'xlconstant_12' of component 'bd1_xlconstant_12_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:165]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_12_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_12_0/synth/bd1_xlconstant_12_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized3' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 13 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized3' (5#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_12_0' (6#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_12_0/synth/bd1_xlconstant_12_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_13_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_13_0/synth/bd1_xlconstant_13_0.v:57' bound to instance 'xlconstant_13' of component 'bd1_xlconstant_13_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:169]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_13_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_13_0/synth/bd1_xlconstant_13_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized4' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 14 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized4' (6#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_13_0' (7#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_13_0/synth/bd1_xlconstant_13_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_14_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_14_0/synth/bd1_xlconstant_14_0.v:57' bound to instance 'xlconstant_14' of component 'bd1_xlconstant_14_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:173]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_14_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_14_0/synth/bd1_xlconstant_14_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized5' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 15 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized5' (7#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_14_0' (8#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_14_0/synth/bd1_xlconstant_14_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_15_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_15_0/synth/bd1_xlconstant_15_0.v:57' bound to instance 'xlconstant_15' of component 'bd1_xlconstant_15_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:177]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_15_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_15_0/synth/bd1_xlconstant_15_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized6' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 16 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized6' (8#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_15_0' (9#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_15_0/synth/bd1_xlconstant_15_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_2_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_2_0/synth/bd1_xlconstant_2_0.v:57' bound to instance 'xlconstant_2' of component 'bd1_xlconstant_2_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:181]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_2_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_2_0/synth/bd1_xlconstant_2_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized7' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 3 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized7' (9#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_2_0' (10#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_2_0/synth/bd1_xlconstant_2_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_3_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_3_0/synth/bd1_xlconstant_3_0.v:57' bound to instance 'xlconstant_3' of component 'bd1_xlconstant_3_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:185]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_3_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_3_0/synth/bd1_xlconstant_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized8' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 4 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized8' (10#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_3_0' (11#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_3_0/synth/bd1_xlconstant_3_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_4_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_4_0/synth/bd1_xlconstant_4_0.v:57' bound to instance 'xlconstant_4' of component 'bd1_xlconstant_4_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:189]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_4_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_4_0/synth/bd1_xlconstant_4_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized9' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 5 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized9' (11#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_4_0' (12#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_4_0/synth/bd1_xlconstant_4_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_5_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_5_0/synth/bd1_xlconstant_5_0.v:57' bound to instance 'xlconstant_5' of component 'bd1_xlconstant_5_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:193]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_5_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_5_0/synth/bd1_xlconstant_5_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized10' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 6 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized10' (12#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_5_0' (13#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_5_0/synth/bd1_xlconstant_5_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_6_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_6_0/synth/bd1_xlconstant_6_0.v:57' bound to instance 'xlconstant_6' of component 'bd1_xlconstant_6_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:197]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_6_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_6_0/synth/bd1_xlconstant_6_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized11' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 7 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized11' (13#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_6_0' (14#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_6_0/synth/bd1_xlconstant_6_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_7_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_7_0/synth/bd1_xlconstant_7_0.v:57' bound to instance 'xlconstant_7' of component 'bd1_xlconstant_7_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:201]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_7_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_7_0/synth/bd1_xlconstant_7_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized12' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 8 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized12' (14#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_7_0' (15#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_7_0/synth/bd1_xlconstant_7_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_8_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_8_0/synth/bd1_xlconstant_8_0.v:57' bound to instance 'xlconstant_8' of component 'bd1_xlconstant_8_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:205]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_8_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_8_0/synth/bd1_xlconstant_8_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized13' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 9 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized13' (15#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_8_0' (16#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_8_0/synth/bd1_xlconstant_8_0.v:57]
+INFO: [Synth 8-3491] module 'bd1_xlconstant_9_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_9_0/synth/bd1_xlconstant_9_0.v:57' bound to instance 'xlconstant_9' of component 'bd1_xlconstant_9_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:209]
+INFO: [Synth 8-6157] synthesizing module 'bd1_xlconstant_9_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_9_0/synth/bd1_xlconstant_9_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized14' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+	Parameter CONST_VAL bound to: 10 - type: integer 
+	Parameter CONST_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlconstant_v1_1_6_xlconstant__parameterized14' (16#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ipshared/66e7/hdl/xlconstant_v1_1_vl_rfs.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'bd1_xlconstant_9_0' (17#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_xlconstant_9_0/synth/bd1_xlconstant_9_0.v:57]
+INFO: [Synth 8-256] done synthesizing module 'constants_imp_OJTR1O' (18#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:35]
+INFO: [Synth 8-3491] module 'bd1_ila_0_0' declared at '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/.Xil/Vivado-31844-lapma-HP-Laptop-15-bw0xx/realtime/bd1_ila_0_0_stub.vhdl:5' bound to instance 'ila_0' of component 'bd1_ila_0_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:356]
+INFO: [Synth 8-638] synthesizing module 'bd1_ila_0_0' [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/.Xil/Vivado-31844-lapma-HP-Laptop-15-bw0xx/realtime/bd1_ila_0_0_stub.vhdl:17]
+INFO: [Synth 8-256] done synthesizing module 'bd1' (19#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/synth/bd1.vhd:229]
+INFO: [Synth 8-256] done synthesizing module 'bd1_wrapper' (20#1) [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/hdl/bd1_wrapper.vhd:21]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1895.730 ; gain = 211.402 ; free physical = 1495 ; free virtual = 8921
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1901.668 ; gain = 217.340 ; free physical = 1493 ; free virtual = 8919
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1901.668 ; gain = 217.340 ; free physical = 1493 ; free virtual = 8919
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_SerializerAXI_0_0/bd1_SerializerAXI_0_0/bd1_SerializerAXI_0_0_in_context.xdc] for cell 'bd1_i/SerializerAXI_0'
+Finished Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_SerializerAXI_0_0/bd1_SerializerAXI_0_0/bd1_SerializerAXI_0_0_in_context.xdc] for cell 'bd1_i/SerializerAXI_0'
+Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_clk_wiz_0_0/bd1_clk_wiz_0_0/bd1_clk_wiz_0_0_in_context.xdc] for cell 'bd1_i/clk_wiz_0'
+Finished Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_clk_wiz_0_0/bd1_clk_wiz_0_0/bd1_clk_wiz_0_0_in_context.xdc] for cell 'bd1_i/clk_wiz_0'
+Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_ila_0_0/bd1_ila_0_0/bd1_ila_0_0_in_context.xdc] for cell 'bd1_i/ila_0'
+Finished Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_ila_0_0/bd1_ila_0_0/bd1_ila_0_0_in_context.xdc] for cell 'bd1_i/ila_0'
+Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/constrs_1/imports/digilent-xdc-master/Arty-Z7-20-Master.xdc]
+Finished Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/constrs_1/imports/digilent-xdc-master/Arty-Z7-20-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/constrs_1/imports/digilent-xdc-master/Arty-Z7-20-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/bd1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/bd1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1952.332 ; gain = 0.000 ; free physical = 1396 ; free virtual = 8822
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1952.332 ; gain = 0.000 ; free physical = 1396 ; free virtual = 8822
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1952.332 ; gain = 268.004 ; free physical = 1466 ; free virtual = 8892
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1952.332 ; gain = 268.004 ; free physical = 1466 ; free virtual = 8892
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  /home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_clk_wiz_0_0/bd1_clk_wiz_0_0/bd1_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  /home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.srcs/sources_1/bd/bd1/ip/bd1_clk_wiz_0_0/bd1_clk_wiz_0_0/bd1_clk_wiz_0_0_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for bd1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/constants/xlconstant_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/SerializerAXI_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd1_i/ila_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1952.332 ; gain = 268.004 ; free physical = 1469 ; free virtual = 8895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1952.332 ; gain = 268.004 ; free physical = 1468 ; free virtual = 8894
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:21 . Memory (MB): peak = 1952.332 ; gain = 268.004 ; free physical = 1466 ; free virtual = 8895
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'bd1_i/clk_wiz_0/clk_out1' to pin 'bd1_i/clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'bd1_i/clk_wiz_0/clk_out2' to pin 'bd1_i/clk_wiz_0/bbstub_clk_out2/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 1961.332 ; gain = 277.004 ; free physical = 1342 ; free virtual = 8770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 1961.332 ; gain = 277.004 ; free physical = 1342 ; free virtual = 8770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 1971.348 ; gain = 287.020 ; free physical = 1340 ; free virtual = 8769
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1985.223 ; gain = 300.895 ; free physical = 1340 ; free virtual = 8769
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1985.223 ; gain = 300.895 ; free physical = 1340 ; free virtual = 8769
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1985.223 ; gain = 300.895 ; free physical = 1340 ; free virtual = 8769
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1985.223 ; gain = 300.895 ; free physical = 1340 ; free virtual = 8769
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1985.223 ; gain = 300.895 ; free physical = 1340 ; free virtual = 8769
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1985.223 ; gain = 300.895 ; free physical = 1340 ; free virtual = 8769
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------------+----------+
+|      |BlackBox name         |Instances |
++------+----------------------+----------+
+|1     |bd1_SerializerAXI_0_0 |         1|
+|2     |bd1_clk_wiz_0_0       |         1|
+|3     |bd1_ila_0_0           |         1|
++------+----------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------+------+
+|      |Cell                         |Count |
++------+-----------------------------+------+
+|1     |bd1_SerializerAXI_0_0_bbox_0 |     1|
+|2     |bd1_clk_wiz_0_0_bbox_1       |     1|
+|3     |bd1_ila_0_0_bbox_2           |     1|
+|4     |IBUF                         |     1|
++------+-----------------------------+------+
+
+Report Instance Areas: 
++------+--------------------+---------------------+------+
+|      |Instance            |Module               |Cells |
++------+--------------------+---------------------+------+
+|1     |top                 |                     |    41|
+|2     |  bd1_i             |bd1                  |    40|
+|3     |    constants       |constants_imp_OJTR1O |     0|
+|4     |      xlconstant_0  |bd1_xlconstant_0_0   |     0|
+|5     |      xlconstant_1  |bd1_xlconstant_1_0   |     0|
+|6     |      xlconstant_10 |bd1_xlconstant_10_0  |     0|
+|7     |      xlconstant_11 |bd1_xlconstant_11_0  |     0|
+|8     |      xlconstant_12 |bd1_xlconstant_12_0  |     0|
+|9     |      xlconstant_13 |bd1_xlconstant_13_0  |     0|
+|10    |      xlconstant_14 |bd1_xlconstant_14_0  |     0|
+|11    |      xlconstant_15 |bd1_xlconstant_15_0  |     0|
+|12    |      xlconstant_2  |bd1_xlconstant_2_0   |     0|
+|13    |      xlconstant_3  |bd1_xlconstant_3_0   |     0|
+|14    |      xlconstant_4  |bd1_xlconstant_4_0   |     0|
+|15    |      xlconstant_5  |bd1_xlconstant_5_0   |     0|
+|16    |      xlconstant_6  |bd1_xlconstant_6_0   |     0|
+|17    |      xlconstant_7  |bd1_xlconstant_7_0   |     0|
+|18    |      xlconstant_8  |bd1_xlconstant_8_0   |     0|
+|19    |      xlconstant_9  |bd1_xlconstant_9_0   |     0|
++------+--------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1985.223 ; gain = 300.895 ; free physical = 1340 ; free virtual = 8769
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1985.223 ; gain = 250.230 ; free physical = 1397 ; free virtual = 8825
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:36 . Memory (MB): peak = 1985.230 ; gain = 300.895 ; free physical = 1397 ; free virtual = 8825
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1997.129 ; gain = 0.000 ; free physical = 1342 ; free virtual = 8771
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+109 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:44 . Memory (MB): peak = 1997.129 ; gain = 538.293 ; free physical = 1434 ; free virtual = 8862
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1997.129 ; gain = 0.000 ; free physical = 1434 ; free virtual = 8862
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/lapma/FPGAProjects/DSA-SS-Zynq-Projects/DSA-SS-Zynq-Projects/TDMA_AXIStream/TDMA_AXIStream.runs/synth_1/bd1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd1_wrapper_utilization_synth.rpt -pb bd1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 24 04:31:35 2020...
